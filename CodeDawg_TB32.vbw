@@ -1,0 +1,10 @@
+Connect = 93, 137, 942, 602, C, 132, 132, 729, 912, C
+FrmCodeDawgToolbar = 130, 119, 1003, 655, C, 22, 22, 836, 458, C
+BasQuickSaveRoutine = 152, 189, 883, 744, C
+FrmSaveChanges = 57, 140, 986, 638, C, 132, 132, 946, 568, C
+FrmOptions = 38, 73, 1026, 715, C, 154, 154, 968, 590, C
+basFindWindow = 119, 161, 940, 730, C
+ClsBookmarks = 136, 132, 993, 667, C
+ClsBreakPoints = 174, 139, 1007, 642, C
+ClsBookmark_BreakPoint = 174, 139, 836, 680, C
+basGlobals = 181, 132, 845, 678, C

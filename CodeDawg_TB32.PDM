@@ -1,0 +1,92 @@
+[Root]
+Most Recent Package=CodeDawg Toolbar Assistant
+
+
+[Package|CodeDawg Toolbar Assistant|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Development\Addins\CodeDawg Toolbar\Package
+
+[Package|CodeDawg Toolbar Assistant|Configure DAO ISAMs]
+Applicable=No
+
+[Package|CodeDawg Toolbar Assistant|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|CodeDawg Toolbar Assistant|Files Found]
+
+[Package|CodeDawg Toolbar Assistant|Files Released]
+
+[Package|CodeDawg Toolbar Assistant|Missing Dependency Information]
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Setup1\VBSHELL.TLB=
+C:\WINNT\system32\VBSHELL.TLB=
+
+[Package|CodeDawg Toolbar Assistant|Out-of-Date Dependency Information]
+
+[Package|CodeDawg Toolbar Assistant|Files Added]
+
+[Package|CodeDawg Toolbar Assistant|Files Removed]
+
+[Package|CodeDawg Toolbar Assistant|Files In Project]
+D:\Development\Addins\CodeDawg Toolbar\CodeDawg_TB32.DLL=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\WINNT\system32\TABCTL32.OCX=Yes
+C:\WINNT\system32\DWSHK36.OCX=Yes
+C:\WINNT\system32\DWSPY36.dll=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINNT\system32\VBSHELL.TLB=Yes
+
+[Package|CodeDawg Toolbar Assistant|Configure Registry Files]
+Applicable=No
+
+[Package|CodeDawg Toolbar Assistant|Configure Remote Servers]
+Applicable=No
+
+[Package|CodeDawg Toolbar Assistant|Install Locations]
+D:\Development\Addins\CodeDawg Toolbar\CodeDawg_TB32.DLL=$(WinSysPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Setup1\VBSHELL.TLB=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINNT\system32\DWSHK36.OCX=$(WinSysPath)
+C:\WINNT\system32\DWSPY36.dll=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINNT\system32\VBSHELL.TLB=$(WinSysPath)
+
+[Package|CodeDawg Toolbar Assistant|Configure Shared Files]
+Applicable=No
+D:\Development\Addins\CodeDawg Toolbar\CodeDawg_TB32.DLL=No
+
+[Package|CodeDawg Toolbar Assistant|Distribution]
+Type=multi
+Size=1.44 MB
+Title=CodeDawg Toolbar Assistant
+
+[Package|CodeDawg Toolbar Assistant|Package]
+PackageFolder=D:\Development\Addins\CodeDawg Toolbar\Package
+ProjectFolder=D:\Development\Addins\CodeDawg Toolbar
+ServerSideCab=
+File1=D:\Development\Addins\CodeDawg Toolbar\Package\setup.exe
+File2=D:\Development\Addins\CodeDawg Toolbar\Package\Setup.Lst
+File3=D:\Development\Addins\CodeDawg Toolbar\Package\CodeDa1.CAB
+File4=D:\Development\Addins\CodeDawg Toolbar\Package\CodeDa2.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
